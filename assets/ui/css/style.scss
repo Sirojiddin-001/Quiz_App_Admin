@@ -1,0 +1,42 @@
+.ql-editor {
+  min-height: 40px;
+  max-height: 80px;
+  padding: 8px 10px;
+  color: #707a96;
+  border: 2px solid #bcc5dd;
+  border-radius: 8px;
+  transition: 0.25s ease-in-out;
+  &:focus {
+    border-color: #1e87f0;
+  }
+}
+.option{
+  width: 100%;
+}
+.answer-block {
+  border: 2px solid #bcc5dd;
+  border-radius: 8px;
+  background:linear-gradient(to left, #f0506e, #bcc5dd9c 70%);
+  .ql-editor {
+    border: none;
+    border-radius: 6px;
+    background-color: #fff;
+  }
+}
+.answer {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 0 13px;
+  margin-top: 4px;
+}
+
+.delete {
+  cursor: pointer;
+  padding: 0 10px;
+  color: white;
+}
+::-webkit-scrollbar {
+  width: 0;
+}
